@@ -7,7 +7,7 @@ use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Psr7\Request;
+use GuzzleHttp\Message\Request;
 use GuzzleHttp\RequestOptions as GuzzleRequestOptions;
 use Mollie\Api\Endpoints\ChargebackEndpoint;
 use Mollie\Api\Endpoints\CustomerEndpoint;

@@ -5,8 +5,8 @@ namespace Mollie\Api\Guzzle;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Exception\TransferException;
 use GuzzleHttp\Middleware;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
+use GuzzleHttp\Message\Request;
+use GuzzleHttp\Message\Response;
 
 class RetryMiddlewareFactory
 {

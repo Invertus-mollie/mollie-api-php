@@ -2,8 +2,8 @@
 
 namespace Tests\Mollie\Api\Endpoints;
 
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
+use GuzzleHttp\Message\Request;
+use GuzzleHttp\Message\Response;
 use Mollie\Api\Resources\Settlement;
 use Mollie\Api\Resources\SettlementCollection;
 use Mollie\Api\Types\SettlementStatus;

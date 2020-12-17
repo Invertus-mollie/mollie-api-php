@@ -4,7 +4,7 @@ namespace Tests\Mollie\Api;
 use Eloquent\Liberator\Liberator;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
-use GuzzleHttp\Psr7\Response;
+use GuzzleHttp\Message\Response;
 use Mollie\Api\Exceptions\ApiException;
 use Mollie\Api\MollieApiClient;
 

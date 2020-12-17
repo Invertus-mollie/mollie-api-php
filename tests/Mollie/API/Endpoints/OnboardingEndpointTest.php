@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Tests\Mollie\Api\Endpoints;
 
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
+use GuzzleHttp\Message\Request;
+use GuzzleHttp\Message\Response;
 use Mollie\Api\Resources\Onboarding;
 use Mollie\Api\Types\OnboardingStatus;
 

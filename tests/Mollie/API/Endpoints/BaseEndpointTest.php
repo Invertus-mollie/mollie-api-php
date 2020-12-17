@@ -3,8 +3,8 @@
 namespace Tests\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Client;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
+use GuzzleHttp\Message\Request;
+use GuzzleHttp\Message\Response;
 use Mollie\Api\MollieApiClient;
 
 abstract class BaseEndpointTest extends \PHPUnit\Framework\TestCase
